@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <style>
+        body{
+            background-image: url("../pictures/רקע2.png");
+            background-repeat: no-repeat center fixed;
+    background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h2>Enter your details&#128196</h2>
+    <div class="order" >
+    <form action="../pages/order2.html" method="post">
+    <h3>We will try to answer as soon as possible</h3>
+     First name <input type="text" minlength="2" required class="input" title="Required field"> <br>
+     Last name <input type="text" minlength="2" class="input"> <br>
+     Id <input type="text" minlength="9" maxlength="9" required class="input" title="Required field"> <br>
+     Tel<input type="tel" class="input" maxlength="10" minlength="10" pattern="[0]{1}[0-9]{2}[0-9]{3}[0-9]{4}" title="Required field" required><br>
+     Adress <input type="text" class="input"> <br>
+     Email <input type="email" class="input" required> <br>
+     Password <input type="password" class="input"> <br>
+     Your questions<textarea name="message" rows="10" cols="30" class="input"></textarea>
+     Remember me <input type="checkbox" ><br>
+     <input type="submit" value="Save" name="sub" class="shop">
+     <input type="reset" value="Reset" name="sub" class="shop">
+   </form>
+</div>
+
+
+</body>
+</html>
